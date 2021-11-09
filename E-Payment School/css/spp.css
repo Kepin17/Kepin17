@@ -1,0 +1,127 @@
+.bg {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  background-image: linear-gradient(rgba(26, 145, 214, 0.7), rgba(12, 40, 133, 0.7));
+}
+
+@media (max-width: 700px) {
+  .slide1 {
+    width: 50%;
+    height: 150vh;
+    background: #ddd;
+  }
+  .logo img {
+    margin-left: -30px;
+  }
+}
+
+.db h1 {
+  font-size: 20px;
+}
+.db h5 {
+  font-size: 15px;
+}
+
+.table {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+
+.table h2 {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 1px darkblue;
+  margin: 1%;
+  background: linear-gradient(rgb(245, 81, 81), rgb(240, 187, 187));
+  color: black;
+}
+th {
+  border: 1px solid;
+  color: #fff;
+}
+.row th {
+  padding: 0 20px;
+  background: rgb(231, 13, 5);
+  border-radius: 5px;
+}
+.table img {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 70%;
+}
+
+.student-btn {
+  margin: 2% 15%;
+  position: relative;
+  top: -40px;
+  left: 45%;
+  background: transparent;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.student-btn:hover {
+  background: crimson;
+  transition: 1s;
+}
+
+.box-line {
+  width: 90%;
+  margin-left: -75px;
+  height: 2px;
+  background: crimson;
+}
+
+.fixed-table {
+  display: none;
+}
+.table {
+  display: block;
+}
+
+@media (max-width: 700px) {
+  .bg {
+    width: 100%;
+    height: 130vh;
+  }
+  .table {
+    display: none;
+  }
+  .fixed-table {
+    display: block;
+    position: absolute;
+    top: 20%;
+  }
+
+  .fixed-table h2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    left: 23%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px darkblue;
+    margin: 1%;
+    background: linear-gradient(rgb(245, 81, 81), rgb(240, 187, 187));
+    color: black;
+    font-size: 20px;
+  }
+
+  table {
+    font-size: 12px;
+    margin: 20px;
+  }
+}

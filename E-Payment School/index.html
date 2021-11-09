@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>SPP SEKOLAH</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+
+    <section class="header">
+      <div class="header-logo">
+      <i class="bi bi-list" style="color: aliceblue" onclick="showMenu()"></i>
+
+      <a href="index.html"><i class="bi bi-bank2"></i> E-Payment School</a>
+    </div>
+      <a href="login.html"><i class="bi bi-person-circle"></i></a>
+      </div>
+    </section>
+    <!-- END HEADER -->
+
+    <!-- NAV BAR -->
+    <div class="bg">
+      <div class="slide1" id="slideLink">
+        <div class="slide-text">
+          <i class="bi bi-x-circle-fill" onclick="hideMenu()"></i>
+          <h2><i class="bi bi-person-square"></i> Kevien Ollyvie <button onclick="myFunction()" class="dropbtn">^</button></h2>
+          <p>Kevien.oj@spp.id</p>
+          <div class="dropdown">
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">Kevien.oj@spp.id</a>
+              <a href="#about">Sandra@spp.id</a>
+              <a href="#contact">Cindy@spp.id</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide-list">
+          <div class="slides">
+            <ul>
+              <li><a href="index.html"><i class="bi bi-motherboard-fill"></i>Dashboard</a></li>
+              <li><a href="student-data.html"><i class="bi bi-pie-chart-fill"></i>Student</a></li>
+              <li><a href="class-data.html"><i class="bi bi-house-door-fill"></i>Class Data</a></li>
+              <li><a href="spp-data.html"><i class="bi bi-wallet2"></i>SPP Data</a></li>
+              <li><a href="payment.html"><i class="bi bi-cash"></i>Transaction</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- NAV BAR -->
+
+      <!-- DASHBOARD -->
+      <section class="dashboard">
+        <div class="db">
+          <h1>Dasboard</h1>
+          <h5>Dasboard <span> > </span> Home </h5>
+        </div>
+
+        <div class="logo">
+          <img src="img/logo.png">
+        </div>
+<div class="logo">
+          <img src="img/logo.png">
+        </div>
+
+
+    <div class="welcome-text">
+      <h1>Welcome To E-Payment School </h1>
+      <p>Selamat datang di E-Payment School dan Selamat mencoba<br> Jangan lupa membayar SPP tepat waktu</p>
+    <button type="button" class="i-btn"><a href="#">More Info</a></button>
+    </div>
+  
+
+      <!-- END DASHBOARD -->
+
+   
+    <!-- Footer -->
+    <footer>
+      <div class="footer-text">
+        <p>CopyRight &copy; 2021 Kevien Ollyvie Jolanda</p>
+        <div class="medsos">
+          <div class="mediasos">
+          <ul>
+            <li>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      </div>
+    </footer>
+
+    <!-- END FOOTER -->
+
+    <!-- TOGGLE MENU SCRIPT -->
+    <script>
+      var Slide = document.getElementById("slideLink");
+      function showMenu() {
+        Slide.style.right = "0";
+      }
+      function hideMenu() {
+        Slide.style.right = "500px";
+      }
+    </script>
+
+
+<!-- MORE EMAIL SCRIPT -->
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+  
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+  </script>
+
+    
+  </body>
+</html>
