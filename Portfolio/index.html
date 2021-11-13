@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfollio</title>
+  </head>
+  <body>
+    <div class="header">
+      <nav>
+        <a href="index.html"> <h1>Kevien.</h1></a>
+        <div class="nav-link" id="NavMenu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="menu" onclick="Menu()">
+        <div class="menus one"></div>
+        <div class="menus two"></div>
+        <div class="menus three"></div>
+      </div>
+
+      <div class="textbox">
+        <h1>I'm <span class="auto-input"></span></h1>
+        <p>
+          Kamu bisa meminta bantuanku untuk menyelesaikan masalahmu mengenai desain website <br />
+          untuk project bisnismu
+        </p>
+        <a href="#">Contact Me</a>
+        <a href="#">Download Cv</a>
+      </div>
+      <img src="img/Char1.png" class="user" />
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto-input", {
+        strings: ["Kevien Ollyvie ", "Web Developer", "Student"],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop: true,
+      });
+    </script>
+
+    <script src="script/menu.js"></script>
+  </body>
+</html>
