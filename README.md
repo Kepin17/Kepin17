@@ -23,6 +23,7 @@ const kevien = {
   major:      "Informatics Engineering",
   passion:    ["Web Development", "Problem Solving", "Innovation"],
   focus:      ["Frontend Frameworks", "Backend Systems", "Database Design"],
+  portfolio:  "https://kevienstudio.my.id",
   motto:      "Every challenge is an opportunity to build something meaningful."
 };
 ```
@@ -33,10 +34,42 @@ const kevien = {
 
 ---
 
+## 🧠 Values & Soft Skills
+
+<div align="center">
+
+![Fast Learner](https://img.shields.io/badge/🚀%20Fast%20Learner-Adapts%20quickly%20to%20new%20tech%20%26%20frameworks-6C3483?style=for-the-badge)
+![Team Player](https://img.shields.io/badge/🤝%20Team%20Player-Listens%2C%20collaborates%2C%20uplifts%20others-1A5276?style=for-the-badge)
+![Problem Solver](https://img.shields.io/badge/💡%20Problem%20Solver-Turns%20complex%20challenges%20into%20solutions-117A65?style=for-the-badge)
+
+![Detail Oriented](https://img.shields.io/badge/🎯%20Detail%20Oriented-Clean%20code%2C%20great%20UX%2C%20every%20time-B7950B?style=for-the-badge)
+![Communicative](https://img.shields.io/badge/🗣%20Communicative-Bridges%20technical%20%26%20non--technical%20ideas-922B21?style=for-the-badge)
+![Consistent](https://img.shields.io/badge/🔁%20Consistent-Reliable%2C%20deadline--driven%2C%20quality--first-1F618D?style=for-the-badge)
+
+</div>
+
+<br/>
+
+<div align="center">
+
+|  | Skill | What it means for you |
+|--|-------|----------------------|
+| 🚀 | **Fast Learner** | Pick up new frameworks, tools, and domains quickly — minimal onboarding friction |
+| 🤝 | **Team Player** | Actively listen, share knowledge, and push the whole team forward |
+| 💡 | **Problem Solver** | Decompose hard problems into clean, maintainable solutions |
+| 🎯 | **Detail-Oriented** | Every pixel, every edge case — quality is non-negotiable |
+| 🗣️ | **Communicative** | Bridge the gap between technical decisions and non-technical stakeholders |
+| 🔁 | **Consistent** | Show up every day — deadlines respected, standards maintained |
+
+</div>
+
+---
+
 ## 🌐 Connect With Me
 
 <div align="center">
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-kevienstudio.my.id-%23FF6B6B?style=for-the-badge&logo=firefox&logoColor=white)](https://kevienstudio.my.id)&nbsp;
 [![Discord](https://img.shields.io/badge/Discord-kepin04-%235865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kepin04)&nbsp;
 [![Instagram](https://img.shields.io/badge/Instagram-@Kevien.oj-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Kevien.oj)&nbsp;
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Kevien%20Ollyvie%20Jolanda-%230A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kevien-ollyvie-jolanda)
@@ -110,6 +143,7 @@ const kevien = {
 
 </div>
 
+
 ---
 
 <div align="center">
@@ -119,4 +153,3 @@ const kevien = {
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" width="100%"/>
 
 </div>
--
