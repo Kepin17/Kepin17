@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Kevien Ollyvie Jolanda</title>
+  <desc id="desc">Software Engineer · Full-Stack Web Developer</desc>
+  <defs>
+    <clipPath id="card"><rect width="1200" height="300" rx="16"/></clipPath>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="gridMask"><rect x="720" y="0" width="480" height="300" fill="url(#fade)"/></mask>
+    <style>
+      .name { font: 600 56px 'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif; fill: #F8FAFC; letter-spacing: -0.5px; }
+      .role { font: 400 24px 'Inter','Segoe UI',-apple-system,BlinkMacSystemFont,'Helvetica Neue',Arial,sans-serif; fill: #94A3B8; }
+      .meta { font: 400 17px ui-monospace,'SFMono-Regular','Cascadia Code',Consolas,'DejaVu Sans Mono',monospace; fill: #64748B; }
+      .pulse { transform-origin: 1020px 150px; animation: pulse 2.4s ease-out infinite; }
+      @keyframes pulse { 0% { transform: scale(1); opacity: .55; } 100% { transform: scale(3.2); opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .pulse { animation: none; opacity: 0; } }
+    </style>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="#0B1220"/>
+
+    <g mask="url(#gridMask)">
+      <g stroke="#1E293B" stroke-width="1">
+      <line x1="780" y1="0" x2="780" y2="300"/>
+      <line x1="840" y1="0" x2="840" y2="300"/>
+      <line x1="900" y1="0" x2="900" y2="300"/>
+      <line x1="960" y1="0" x2="960" y2="300"/>
+      <line x1="1020" y1="0" x2="1020" y2="300"/>
+      <line x1="1080" y1="0" x2="1080" y2="300"/>
+      <line x1="1140" y1="0" x2="1140" y2="300"/>
+      <line x1="1200" y1="0" x2="1200" y2="300"/>
+      <line x1="720" y1="30" x2="1200" y2="30"/>
+      <line x1="720" y1="90" x2="1200" y2="90"/>
+      <line x1="720" y1="150" x2="1200" y2="150"/>
+      <line x1="720" y1="210" x2="1200" y2="210"/>
+      <line x1="720" y1="270" x2="1200" y2="270"/>
+      </g>
+      <path d="M900 90 H1020 V150 M1020 150 H1140 V270 M960 210 H1020 V150" fill="none" stroke="#1D4ED8" stroke-opacity="0.55" stroke-width="2"/>
+    </g>
+
+    <circle cx="900" cy="90" r="5" fill="#3B82F6"/>
+    <circle cx="960" cy="210" r="5" fill="#3B82F6"/>
+    <circle cx="1140" cy="270" r="5" fill="#3B82F6"/>
+    <circle class="pulse" cx="1020" cy="150" r="7" fill="#DC2626"/>
+    <circle cx="1020" cy="150" r="7" fill="#DC2626"/>
+
+    <text class="name" x="64" y="132">Kevien Ollyvie Jolanda</text>
+    <rect x="64" y="156" width="96" height="4" rx="1" fill="#3B82F6"/>
+    <rect x="168" y="156" width="28" height="4" rx="1" fill="#DC2626"/>
+    <text class="role" x="64" y="204">Software Engineer · Full-Stack Web Developer</text>
+    <text class="meta" x="64" y="250">React · Node.js · MySQL · self-hosted infra</text>
+  </g>
+</svg>
