@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" width="100%" alt="Kevien Ollyvie Jolanda — Software Engineer · Full-Stack Web Developer"/>
+<img src="banner.svg" width="100%" alt="Kevien Ollyvie Jolanda — Software Engineer · Full-Stack Web Developer"/>
 
 <p>
 I build scalable full-stack web apps with <b>React</b>, <b>Node.js</b> and <b>MySQL</b>, and I run the servers they live on.<br/>
