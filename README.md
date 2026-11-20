@@ -1,185 +1,174 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Kevien%20Ollyvie%20Jolanda&fontSize=40&fontColor=ffffff&fontAlignY=35&desc=Full%20Stack%20Developer%20%7C%20Infrastructure%20Enthusiast&descAlignY=55&descSize=15&animation=fadeIn" width="100%"/>
+<img src="assets/banner.svg" width="100%" alt="Kevien Ollyvie Jolanda — Software Engineer · Full-Stack Web Developer"/>
 
-<br/>
+<p>
+I build scalable full-stack web apps with <b>React</b>, <b>Node.js</b> and <b>MySQL</b>, and I run the servers they live on.<br/>
+Software Engineer at <b>CV. Sukses Sejati Trinity</b> · Informatics Engineering student at <b>Universitas Duta Bangsa Surakarta</b>
+</p>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=Building+full-stack+web+apps+with+React+%26+Node.js;Chair%2C+HMTI+UDB+%E2%80%94+Informatics+Student+Association;Self-hosted+infra+%7C+DevOps+enthusiast;Turning+ideas+into+production-ready+systems)](https://git.io/typing-svg)
-
-<br/>
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-kevienstudio.my.id-FF6B6B?style=for-the-badge&logo=firefox&logoColor=white)](https://kevienstudio.my.id)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kevien-ollyvie-jolanda)
-[![Instagram](https://img.shields.io/badge/Instagram-@Kevien.oj-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/Kevien.oj)
-[![Discord](https://img.shields.io/badge/Discord-kepin04-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/kepin04)
-
-<img src="https://komarev.com/ghpvc/?username=Kepin17&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="profile views"/>
+<a href="https://kevienstudio.my.id"><img src="https://img.shields.io/badge/Portfolio-kevienstudio.my.id-1D4ED8?style=flat-square&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+<a href="https://www.linkedin.com/in/olyzano/"><img src="https://img.shields.io/badge/LinkedIn-olyzano-1D4ED8?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:kevien.oj@gmail.com"><img src="https://img.shields.io/badge/Email-kevien.oj@gmail.com-DC2626?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+<img src="https://img.shields.io/badge/status-open%20to%20work-DC2626?style=flat-square" alt="Open to work"/>
 
 </div>
 
 <br/>
 
-## ⚡ About Me
+## About
 
-```ts
-const kevien: Developer = {
-  name:        "Kevien Ollyvie Jolanda",
-  university:  "Universitas Duta Bangsa Surakarta",
-  major:       "Informatics Engineering — Semester 6",
-  role:        "Full Stack Developer & Chair of HMTI UDB",
-  stack:       ["React", "Next.js", "Node.js", "Express.js", "TypeScript"],
-  interests:   ["Self-Hosted Infrastructure", "DevOps", "ML/AI Systems"],
-  currentFocus: "Production-grade web apps + community-driven tech projects",
-  motto:       "Every challenge is an opportunity to build something meaningful."
-};
-```
+I like owning the whole path from idea to production: designing the interface, writing the API, modelling the database, and deploying on infrastructure I manage myself. At work I build e-commerce and warehouse systems; on campus I assist with applied research and village digitalization projects.
+
+**Right now I'm**
+
+- Building an integrated **e-commerce + warehouse management platform** at CV. Sukses Sejati Trinity
+- Shipping **smart farming** and village digitalization systems as a research & community service assistant
+- Building **Olyzano Wallet**, a React Native finance app with NFC e-money reading and AI receipt scanning
+- Hardening and automating my self-hosted VPS: Nginx, Docker, Cloudflare, monitoring and alerting
+
+<br/>
+
+## Tech Stack
+
+| | |
+|:--|:--|
+| **Frontend** | <img src="https://skillicons.dev/icons?i=ts,react,nextjs,tailwind&perline=10" height="40" alt="TypeScript, React, Next.js, Tailwind CSS"/> |
+| **Backend** | <img src="https://skillicons.dev/icons?i=nodejs,bun,express,laravel&perline=10" height="40" alt="Node.js, Bun, Express, Laravel"/> |
+| **Data** | <img src="https://skillicons.dev/icons?i=mysql,postgres,redis&perline=10" height="40" alt="MySQL, PostgreSQL, Redis"/> |
+| **Infrastructure** | <img src="https://skillicons.dev/icons?i=ubuntu,nginx,docker,cloudflare&perline=10" height="40" alt="Ubuntu, Nginx, Docker, Cloudflare"/> |
+| **ML** | <img src="https://skillicons.dev/icons?i=py,tensorflow&perline=10" height="40" alt="Python, TensorFlow"/> |
+
+<br/>
+
+## Experience
+
+**Software Engineer** · CV. Sukses Sejati Trinity · <sub>2025 – present</sub>
+- Built an integrated e-commerce and warehouse management platform in a single monorepo: Bun + Express + TypeScript API, React admin panel, Next.js storefront and a React Native warehouse app. Primary contributor with ~84% of commits.
+- Led a phased, zero-downtime migration off a legacy shipment tracking system while both systems shared one database.
+- Integrated Midtrans (QRIS, GoPay, Virtual Account, automated refunds) and RajaOngkir; built purchase order, receiving, returns and stock adjustment modules with atomic stock deduction at checkout.
+- Security & quality: JWT with refresh tokens in httpOnly cookies, staff OTP, rate limiting, RBAC, Zod validation, OpenAPI docs and hundreds of unit tests.
+
+**Freelance Web Developer** · CV. Sukses Sejati Trinity · <sub>2025</sub>
+- Built **SIAR**, a shipment receipt audit system that replaced external scanners with smartphone camera scanning — ~70% gain in operational efficiency.
+
+**Research & Community Service Assistant** · Universitas Duta Bangsa Surakarta · <sub>2025 – present</sub>
+- Develop, test and deploy software for lecturers' research and community service programs, including a Smart Farming 5.0 ecosystem (AI, IoT, renewable energy) in Pucung Village with ESP32-based monitoring.
+
+**Frontend Developer** · FiveM roleplay communities (Nuju, Dirgantara) · <sub>2025 – 2026</sub>
+- Built web-based game interfaces with React and Tailwind CSS; managed Ubuntu servers and Nginx reverse proxies.
+
+**President (former)** · Himpunan Prodi Teknik Informatika UDB · <sub>2025 – 2026</sub>
+- Led the Informatics Engineering student association; previously in the Research & Technology division, teaching React.js, Tailwind CSS and web fundamentals in the *Sibarmati* training program.
+
+<br/>
+
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**🌐 What I do**
-- Design and ship end-to-end web systems — UI to deployment
-- Lead HMTI UDB, Informatics Engineering's student association
-- Contribute to community empowerment tech projects (PDB, village digitalization)
-- Manage self-hosted infrastructure (home server + VPS)
+**Guud Store Platform**<br/>
+E-commerce storefront, admin panel and warehouse scanning app (picking, packing, pickout with barcode + photo/video proof).<br/>
+<sub>`Bun` `Express` `TypeScript` `Next.js` `React Native` `MySQL`</sub>
 
 </td>
 <td width="50%" valign="top">
 
-**🎯 Currently**
-- Building full-stack apps with the React/Node.js ecosystem
-- Exploring applied ML for real-world decision systems
-- Hardening and automating self-hosted server infra
-- Freelancing on frontend/backend projects for community clients
+**SIAR — Receipt Audit System** &nbsp;<a href="https://kevienstudio.my.id/siar-system-app"><img src="https://img.shields.io/badge/details-1D4ED8?style=flat-square" alt="details"/></a><br/>
+Monitors, validates and audits shipment receipts with mobile camera scanning and auto/manual zoom.<br/>
+<sub>`React` `Tailwind CSS` `Node.js` `MySQL` `Nginx`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**UDB Smart Farming** &nbsp;<a href="https://udbsmartfarming.com/dashboard"><img src="https://img.shields.io/badge/live-DC2626?style=flat-square" alt="live"/></a> <img src="https://img.shields.io/badge/in%20progress-64748B?style=flat-square" alt="in progress"/><br/>
+IoT system for chili cultivation: ESP32-CAM, Flask API and AI image classification for plant condition, pest prediction and fertilization advice.<br/>
+<sub>`Next.js` `Node.js` `Flask` `MySQL` `ESP32`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Claim Certif App** &nbsp;<a href="https://github.com/Kepin17/claim-certif-"><img src="https://img.shields.io/badge/code-0F172A?style=flat-square&logo=github&logoColor=white" alt="code"/></a> <a href="https://kevienstudio.my.id/claim-certif"><img src="https://img.shields.io/badge/details-1D4ED8?style=flat-square" alt="details"/></a><br/>
+Digital certificate claiming by registered details or unique code, with SMTP delivery backed by SPF, DKIM and DMARC.<br/>
+<sub>`Laravel` `MySQL` `SMTP`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Web Wisata Watu Adeg** &nbsp;<a href="https://watuadeg.id"><img src="https://img.shields.io/badge/live-DC2626?style=flat-square" alt="live"/></a><br/>
+Tourism website for Pokdarwis Puri Guring, built under the PDB village empowerment program.<br/>
+<sub>`Next.js` `Node.js` `MySQL` `Nginx` `Cloudflare`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Web KUBE Tani Tlaten** &nbsp;<a href="https://kubetanitlaten.id/"><img src="https://img.shields.io/badge/live-DC2626?style=flat-square" alt="live"/></a><br/>
+Website for a farmers' business group, built with UDB, Politeknik Indonusa Surakarta and the PDB program.<br/>
+<sub>`React` `Tailwind CSS`</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**Olyzano Wallet** &nbsp;<img src="https://img.shields.io/badge/in%20progress-64748B?style=flat-square" alt="in progress"/><br/>
+Personal finance app: reads e-money card balances over NFC and turns photographed receipts into transactions.<br/>
+<sub>`React Native` `Expo` `TypeScript` `NativeWind` `Claude API`</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**Olyzano Notch** &nbsp;<a href="https://kepin17.github.io/olyzano-notch"><img src="https://img.shields.io/badge/website-1D4ED8?style=flat-square" alt="website"/></a><br/>
+A desktop notch and shelf app that keeps quick tools and files one gesture away.<br/>
+<sub>`Desktop app`</sub>
 
 </td>
 </tr>
 </table>
 
-<details>
-<summary><b>🧠 Values & Soft Skills</b> — click to expand</summary>
 <br/>
 
-| | Skill | What it means in practice |
-|:---:|---|---|
-| 🚀 | **Fast Learner** | Picks up new frameworks/tools with minimal onboarding friction |
-| 🤝 | **Team Player** | Actively listens, collaborates, and pushes the team forward |
-| 💡 | **Problem Solver** | Breaks complex challenges into clean, maintainable solutions |
-| 🎯 | **Detail-Oriented** | Clean code, solid UX, careful attention to edge cases |
-| 🗣️ | **Communicative** | Bridges technical decisions and non-technical stakeholders |
-| 🔁 | **Consistent** | Reliable, deadline-driven, quality-first |
+## Publications
 
-</details>
+| Year | Title | Venue |
+|:--:|:--|:--|
+| 2026 | [Decision Tree for Scholarship Acceptance Classification](https://www.ojs.udb.ac.id/Senatib/article/view/6401) | SENATIB |
+| 2026 | ["Kampung Market" Digital Catalog for MSME Promotion](https://publications.id/index.php/jpmii/article/view/1292) | Jurnal Pengabdian Masyarakat Inovasi Indonesia |
+| 2025 | [Distributed System Design for Multi-Warehouse Stock Management](https://garuda.kemdiktisaintek.go.id/documents/detail/5370442) | SENATIB 2025 |
+| 2024 | [HC-SR04 Sensor-Based Automatic Lighting System in Traditional Houses](https://www.ojs.udb.ac.id/Senatib/article/view/4387) | SENATIB |
 
 <br/>
 
-## 🛠️ Tech Stack
+## GitHub Activity
 
 <div align="center">
 
-**Frontend**
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Kepin17&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=60a5fa&icon_color=f87171&text_color=c9d1d9&ring_color=3b82f6&rank_icon=github"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Kepin17&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=1d4ed8&icon_color=dc2626&ring_color=2563eb&rank_icon=github" height="165" alt="GitHub stats"/>
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Kepin17&layout=compact&hide_border=true&bg_color=0d1117&title_color=60a5fa&text_color=c9d1d9"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kepin17&layout=compact&hide_border=true&title_color=1d4ed8" height="165" alt="Top languages"/>
+</picture>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=Kepin17&hide_border=true&background=0d1117&ring=3b82f6&fire=f87171&currStreakLabel=60a5fa&sideLabels=c9d1d9&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kepin17&hide_border=true&ring=2563eb&fire=dc2626&currStreakLabel=1d4ed8" width="60%" alt="GitHub streak"/>
+</picture>
 
-**Backend & Database**
+<br/><br/>
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge&logo=express&logoColor=61DAFB)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-**Infrastructure & DevOps**
-
-![Ubuntu Server](https://img.shields.io/badge/Ubuntu_Server-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
-
-**Design & Tools**
-
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-</div>
-
-<br/>
-
-## 🚀 Featured Projects
-
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-
-### 🛍️ Guud Store
-Marketplace web app with modern UX patterns.
-<br/>
-`Next.js` `TypeScript` `Tailwind CSS` `Express` `MySQL`
-
-</td>
-<td width="50%">
-
-### 📦 Siar
-Resi management system for Guud Store's shipping/tracking flow.
-<br/>
-`React` `Tailwind CSS` `Express` `MySQL`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🎓 HMPTI Certificate Platform
-Laravel app for event certificate claims, with SMTP delivery + DNS (SPF/DKIM/DMARC) infra.
-<br/>
-`Laravel` `MySQL` `DNS/SMTP`
-
-</td>
-<td width="50%">
-
-### 🌶️ Chili Disease Detection
-Applied ML research using YOLOv8 + TensorFlow, ~77% accuracy.
-<br/>
-`YOLOv8` `TensorFlow` `Next.js`
-
-</td>
-</tr>
-</table>
-</div>
-
-<br/>
-
-## 📊 GitHub Statistics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Kepin17&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github" height="165"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kepin17&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&layout=compact" height="165"/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kepin17&theme=tokyonight&hide_border=true" width="48%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kepin17&theme=tokyo-night&hide_border=true" width="100%"/>
-
-</div>
-
-<br/>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Kepin17/Kepin17/output/github-contribution-grid-snake.svg" width="100%"/>
-
-<sub>⚙️ Generated automatically via GitHub Actions — see setup notes below</sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Kepin17/Kepin17/output/github-contribution-grid-snake-dark.svg"/>
+  <img src="https://raw.githubusercontent.com/Kepin17/Kepin17/output/github-contribution-grid-snake.svg" width="100%" alt="Contribution snake"/>
+</picture>
 
 </div>
 
@@ -187,9 +176,11 @@ Applied ML research using YOLOv8 + TensorFlow, ~77% accuracy.
 
 <div align="center">
 
-### 💌 Let's build something together
-<sub>Open to collaboration on web development, self-hosted infra, and community tech projects.</sub>
+**Let's build something together.**<br/>
+<sub>Open to full-stack roles, freelance projects and community tech collaborations — reach me at <a href="mailto:kevien.oj@gmail.com">kevien.oj@gmail.com</a>.</sub>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=100&section=footer" width="100%"/>
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Kepin17&style=flat-square&color=1D4ED8&label=profile+views" alt="Profile views"/>
 
 </div>
